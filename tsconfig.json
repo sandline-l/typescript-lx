@@ -1,0 +1,18 @@
+{
+  "compilerOptions": { //编译选项
+    "target": "es2016", //配置编译目标代码的版本标准
+    "module": "commonjs", //配置编译目标使用的模块化标准
+    "lib": ["es2016"] , //配置运行环境, 可以时浏览器环境, node环境, es7环境等
+    "outDir": "./dist" , //将编译的结果放到某个文件夹
+    "strictNullChecks": true  //更加严格的空类型检查
+  },
+  "include": ["./src"] ,//要编译的文件夹
+  // "files": ["./src/index.ts"]    ,  可以指定编译某个文件夹下的某个文件,还有这个文件依赖的文件
+
+}
+
+
+
+
+
+
